@@ -15,7 +15,7 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 ## Repositórios
 
 - [App Mobile](https://github.com/Lorrust/iagro-app-mobile)
-- [Painel Web (Admin)](https://Lorrust/seu-usuario/iagro-web-admin)
+- [Painel Web (Admin)](https://Lorrust/Lorrust/iagro-web-admin)
 - [Backend API](https://github.com/Lorrust/iagro-backend-api)
 - [Integração IA](https://github.com/Lorrust/iagro-ai-integration)
 
