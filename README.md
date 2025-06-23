@@ -15,7 +15,7 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 ## Repositórios
 
 - [App Mobile](https://github.com/Lorrust/iagro-app-mobile)
-- [Painel Web (Admin)](https://Lorrust/Lorrust/iagro-web-admin)
+- [Painel Web (Admin)](https://github.com/Lorrust/iagro-web-admin)
 - [Backend API](https://github.com/Lorrust/iagro-backend-api)
 - [Integração IA](https://github.com/Lorrust/iagro-ai-integration)
 
@@ -51,16 +51,34 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 ## Tecnologias Utilizadas
 
 ### Backend
+[![My Skills](https://skillicons.dev/icons?i=py,firebase,nestjs,fastapi,docker,nginx,redis)](https://skillicons.dev)
 
-- **Python:** Para o desenvolvimento da API que gerenciará as solicitações dos usuários e a comunicação com a API do ChatGPT.
+- **Python:** Para o desenvolvimento da API com FastAPI que gerenciará as solicitações dos usuários e a comunicação com a API do ChatGPT.
 
-- **PostgreSQL:** Para armazenamento de dados dos usuários, consultas e históricos.
+- **Firebase:** Para armazenamento de dados dos usuários, consultas e históricos.
+
+- **NestJS:** Para desenvolvimento da API orquestradora ligada ao python e aos Frontends.
+
+- **Docker:** Para a conteinerização do Backend junto dos serviços como Nginx e Redis.
+
+- **Redis:** Para cacheamento de rotas e responstas da API NestJS.
+
+- **Nginx:** Para o balancemaneto de carga (load balancer) da aplicação.
+
+- **Docling:** Bliblioteca python para conversão de documentos e criação de chunks para o RAG (Técnica de alimentar um escopo de um modelo LLM com documentos únicos)
+
+- **Chromadb:** Banco vetorial para guardar documentos de busca para a API do ChatGPT pela técnica de RAG.
 
 ### Frontend
+[![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
 
 - **React Native:** Para desenvolvimento do aplicativo móvel.
 
 - **React:** Para desenvolvimento do painel de administração (site web).
+
+- **Vite:** Ferramenta para construção do site Web otimizado e organizado com react.
+
+- **Expo:** Framework para a construção com uso do react native otimizado e organizado.
 
 ### Integração com API
 
@@ -73,3 +91,8 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 - **Firebase Firestore:** Para o armazenamento de dados em tempo real (consultas, usuários, histórico).
   
 - **Firebase Storage:** Para o armazenamento de imagens enviadas pelos associados.
+
+- **Docker:** Contêiner da aplicação Backend com os serviços do Redis e Nginx.
+
+### Link da apresentação no Canva:
+[IAgro](https://www.canva.com/design/DAGqve0tAGU/Kwx83QoHeDL3TQAOUxdsKg/view?utm_content=DAGqve0tAGU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3e3a0f6299)
