@@ -51,13 +51,13 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 ## Tecnologias Utilizadas
 
 ### Backend
-[![My Skills](https://skillicons.dev/icons?i=py,firebase,nestjs,fastapi,docker,nginx,redis)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,ts,firebase,nestjs,fastapi,docker,nginx,redis)](https://skillicons.dev)
 
 - **Python:** Para o desenvolvimento da API com FastAPI que gerenciará as solicitações dos usuários e a comunicação com a API do ChatGPT.
 
 - **Firebase:** Para armazenamento de dados dos usuários, consultas e históricos.
 
-- **NestJS:** Para desenvolvimento da API orquestradora ligada ao python e aos Frontends.
+- **NestJS:** Para desenvolvimento em TypesScript da API orquestradora ligada ao python e aos Frontends.
 
 - **Docker:** Para a conteinerização do Backend junto dos serviços como Nginx e Redis.
 
@@ -70,11 +70,11 @@ A plataforma será composta por um aplicativo móvel para os associados e uma p�
 - **Chromadb:** Banco vetorial para guardar documentos de busca para a API do ChatGPT pela técnica de RAG.
 
 ### Frontend
-[![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,vite,ts)](https://skillicons.dev)
 
-- **React Native:** Para desenvolvimento do aplicativo móvel.
+- **React Native:** Para desenvolvimento do aplicativo móvel em TypesScript.
 
-- **React:** Para desenvolvimento do painel de administração (site web).
+- **React:** Para desenvolvimento do painel de administração (site web) em TypesScript.
 
 - **Vite:** Ferramenta para construção do site Web otimizado e organizado com react.
 
